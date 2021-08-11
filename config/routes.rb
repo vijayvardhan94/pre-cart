@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'files/files'
+
   get 'say/hello'
 
   get 'say/goodbye'
